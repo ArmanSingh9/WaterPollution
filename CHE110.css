@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fcfcfc;
+    background-image: url('water.jpg'); /* Use relative path */
+    background-size: 100% 100% ;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+header {
+    background-color: #070be9;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}  
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(248, 248, 248);
+} 
+section {
+    padding: 20px;
+    margin: 15px;
+    background-color: rgb(52, 109, 231);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+footer {
+    text-align: center;
+    background-color: #00796b;
+    color: white;
+    padding: 10px;
+    position:unset;
+    width: 100%;
+    bottom: 0;
+}
+h1{
+    color: #ffffff;
+}
+h2{
+    color: #fffefe;
+}
+ul {
+    list-style-type: square;
+    text-align: left;
+}
+
+.header{
+    background-image: url('pollution.png'); /* Use relative path */
+    background-size:  100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 2);
+}
+.about{
+    width: 95%;                   /* Adjusts to the section width */
+    height:  95%;
+    background-image: url('sewage.jpg'); /* Use relative path */
+    background-size:  100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    text-decoration-color: #ffffff;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 2);
+}
+.causes{
+    background-image: url('iron\ waste.jpg'); /* Use relative path */
+    background-size:  100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-decoration-color: aqua;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 2);
+}
+.impact{
+    background-image: url('waste\ in\ water.jpg'); /* Use relative path */
+    background-size:  100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-decoration-color: aqua;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 2);
+}
+.prevention{
+    background-image: url('clean\ river.jpg'); /* Use relative path */
+    background-size:  100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-decoration-color: aqua;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 2);
+}
+.casestudy{
+    background-image: url('cleaned.jpg'); /* Use relative path */
+    background-size:  100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-decoration-color: aqua;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 2);
+}
+.event{
+    background-image: url('un.png'); 
+    background-size: 100% 100%; /* Use relative path */
+    background-repeat: no-repeat;
+    background-position: center;
+    text-decoration-color: aqua;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 2);
+}
